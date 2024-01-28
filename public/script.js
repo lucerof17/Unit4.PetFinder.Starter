@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             console.error('Invalid data format. Expected an array or a single pet object.');
         }
-
+ 
         outputDiv.appendChild(ulElement);
 
         document.body.appendChild(outputDiv);
